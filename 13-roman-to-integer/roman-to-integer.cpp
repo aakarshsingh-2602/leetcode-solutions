@@ -21,7 +21,6 @@ public:
         for (int i = 0; i < n; ++i) {
             int current = value(s[i]);
             
-            // If next value is larger, subtract current; otherwise, add it
             if (i + 1 < n && current < value(s[i + 1])) {
                 total -= current;
             } else {
