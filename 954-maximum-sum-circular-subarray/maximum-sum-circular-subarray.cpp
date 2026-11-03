@@ -15,7 +15,7 @@ public:
         }
         if(maxSub<0)
         return maxSub;
-        else
+       
         return max(total-minSub, maxSub);
     }
 };
